@@ -1,0 +1,23 @@
+{
+  "name": "attendance_tracker",
+  "version": "1.0.0",
+  "description": "it is used to track the attendace of the student",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.8",
+    "pg": "^8.8.0",
+    "sequelize": "^6.21.4",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
